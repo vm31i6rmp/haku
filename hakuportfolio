@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head始まり -->
+<head>
+  <meta charest="UTF-8">
+  <meta name="viewport" content="width=divice-width,initial-scale=1">
+  <title>Portfolio｜HAKU</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sp.css" media="screen and (max-width:600px)">
+</head>
+<!-- head終わり -->
+
+<!-- body始まり -->
+<body id="index">
+  <!-- header始まり -->
+  <header>
+    <div class="logo">
+      <a href="haku.html">LIFE & DESIGN</a>
+    </div>
+    <h2>HakuKin Kyo</h2>
+  </header>
+  <!-- header終わり -->
+
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <section id="about">
+        <h1>About</h1>
+        <p>キョハクキンと申します。<br>
+        何気ない日常景色の発見・撮影が好きで、<br>
+        デザインのインスピレーションともなると考えています。<br>
+        言語の壁を超え、お客様が気に入る素晴らしいデザインの制作をチャレンジしてみたいと思います。</p>
+        </section>
+        <section id="skill">
+          <h1>Skill</h1>
+          <ul class="clearfix skill-list">
+            <li><img src="https://live.staticflickr.com/65535/51381487636_058cfbaa75.jpg"></li>
+            <li><img src="https://live.staticflickr.com/65535/51382498020_42a77053f9.jpg"></li>
+            <li><img src="https://live.staticflickr.com/65535/51382228129_9f75e34581.jpg"></li>
+            <li><img src="https://live.staticflickr.com/65535/51382497975_37eecd3c55.jpg"></li>
+            <li><img src="https://live.staticflickr.com/65535/51382497990_a121432262.jpg"></li>
+            <li><img src="https://live.staticflickr.com/65535/51382498050_efc3d6f285.jpg"></li>
+          </ul>
+        </section>
+        <section id="work">
+          <h1>Work</h1>
+          <ul class="clearfix work-list">
+            <p>カメラマン「HAKU」の架空オフィシャルサイトです。<br><br>
+              日常の写真をよく撮っているため、<br>
+              「生活 × 撮影」を表現するロゴをデザインしました。<br>
+            　　英語はWebフォントを使用し、各環境で一貫した印象になるようにしています。</p>
+            <li><a href="test/index.html"><img src="https://live.staticflickr.com/65535/51379856208_2778dae241_o.png"></a></li>
+            <p>ホームページのバックグラウンドには、<br>
+              季節感を強く感じる街中の一枚を使用しました。</p>
+            <li><a href="test/portfolio.html"><img src="https://live.staticflickr.com/65535/51380633765_e4fa433bc7_o.png"></a></li>
+            <p>ギャラリーには、<br>
+            季節の巡りと日本の美しさを感じる写真を、<br>
+            季節別に載せています。</p>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <small>(C)2021 Haku</small>
+  </footer>
+</body>
+<!-- body終わり -->
+
+</html>
