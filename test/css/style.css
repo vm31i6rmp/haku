@@ -1,0 +1,424 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.logo {
+  float: left;
+  margin-top: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Oswald', sans-serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 5px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 300px;
+  padding: 35px 0;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.btn a{
+  background-color: #009cd3;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  width: 185px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover{
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #009cd3;
+}
+
+.icon:before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #9cb4a4;
+}
+
+#index h1 {
+  font-size: 60px;
+  line-height: 1;
+  color: #ffffff;
+  border: none;
+}
+
+#index h2 {
+  font-size: 40px;
+  line-height: 1;
+  color: #ffffff;
+  margin-bottom: 50px;
+  border: none;
+  font-weight: 400;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#index footer {
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+}
+
+#index {
+  background-image: url(https://live.staticflickr.com/65535/51370461400_5cf71be242_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#about {
+  background-image: url(https://live.staticflickr.com/65535/51352060213_6ab305a4b9_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#about .profile-txt{
+  width: 640px;
+  float: left;
+}
+
+#about .profile-image{
+  width: 250px;
+  float: right;
+  margin-top: 35px;
+}
+
+#portfolio {
+  background-image: url(https://live.staticflickr.com/65535/51352060213_6ab305a4b9_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#portfolio .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#portfolio .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#portfolio .photograph-list li img {
+  width: 220px;
+}
+
+#portfolio .photograph-list a img:hover {
+  opacity: 0.6;
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
+}
+
+#contact {
+  background-image: url(https://live.staticflickr.com/65535/51352060213_6ab305a4b9_o.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd {
+  padding: 10px 0;
+}
+
+#contact .form .name {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .email {
+  width: 300px;
+  height: 30px;
+}
+
+#contact .form .tel {
+  width: 240px;
+  height: 30px;
+}
+
+#contact .form .type {
+  width: 180px;
+  height: 30px;
+}
+
+#contact .form .message {
+  width: 660px;
+  height: 150px;
+}
+
+#contact .form button {
+    background-color: #009cd3;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    border: 3px solid #009cd3;
+    margin-left: 165px;
+}
+
+#contact .form button:hover {
+  background-color: #ffffff;
+  color: #009cd3;
+  cursor: pointer;
+}
+
+#contact .form .required:after {
+  content: " * ";
+  color: #ff0000;
+}
+
+#contact .form .attention {
+  margin: 20px 0 0 165px;
+}
+
+section{
+  margin-bottom: 35px;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+@media screen and (max-width:600px) {
+/*画面サイズが600px以下の場合に適用*/
+
+  body {
+    font-size: 3.5vw;
+  }
+
+  h1 {
+  font-size: 7.2vw;
+  }
+
+  h2 {
+  font-size: 6vw;
+  }
+
+  header {
+    width: auto;
+    margin: 0 5%;
+  }
+
+  .logo {
+    float: none;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .global-nav {
+    float: none;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .global-nev li {
+    display: inline;
+    float: none;
+    margin: 0 8px;
+  }
+
+  #wrap {
+    margin-top: 40px;
+    padding: 35px 0 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .main {
+    float: none;
+    width: auto;
+    margin: 0 5%;
+  }
+
+  .sidebar {
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 10px 10% 10px;
+    background-color: #f7f6f4;
+  }
+
+  #portfolio .photograph-list li:nth-child(3n) {
+    margin-right: 20px;
+  }
+
+  #portfolio {
+    background-image: url(https://live.staticflickr.com/65535/51380000399_7d68bf6eae_o.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+
+  #about {
+    background-image: url(https://live.staticflickr.com/65535/51380000399_7d68bf6eae_o.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+
+  #contact {
+    background-image: url(https://live.staticflickr.com/65535/51380000399_7d68bf6eae_o.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+
+}
